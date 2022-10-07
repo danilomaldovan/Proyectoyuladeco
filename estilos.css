@@ -1,0 +1,294 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(243, 201, 209);
+}
+
+/*Encabezado*/
+
+nav{
+    background-color: rgb(182, 164, 173);
+    color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+nav .logo {
+    width: 250px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    padding: 25px 30px;
+
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: underline;
+    }
+
+nav .desktop {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+nav .desktop .primary{
+    display: flex;
+    justify-content: center;
+}
+
+/*Pagina principal*/
+
+main{
+    background-color: pink;
+}
+
+/*
+.fotos-lugar:hover{
+    border: solid 4px;
+    color: black;
+}
+
+.grid-layout{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+
+    width: 80%;
+    margin: 10% auto;
+    background-color:lightpink;
+    padding: 50px;
+    text-align: center;
+}
+
+*/
+.seccion-uno{
+    text-align: center;
+    margin-top: 150px;
+    font-size: 18px;
+    color: rgb(77, 80, 80);
+    
+}
+
+.seccion-uno .links{
+    text-decoration: none;
+    color:rgb(192, 109, 192) ;
+    font-weight: bold;
+}
+
+.texto-seccion-uno{
+    font-size: 18px;
+}
+
+
+
+/*Seccion hogar*/
+
+.seccion-descripcion h3{
+    text-decoration: underline;
+}
+.seccion-descripcion{
+    text-align: flex-start;
+    margin-top: 50px;
+    border: 2px solid white;
+    padding-left: 30px;;
+}
+
+.seccion-descripcion ul li{
+    font-size: 22x;
+    margin-bottom: 10px;
+}
+
+.seccion-descripcion ul{
+    font-size: 18px ;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-top: 30px;
+}
+
+.transform{
+    height: 250px;
+    width: 250px;
+    background-color: yellow;
+    background-image: radial-gradient(top white red);
+    border: 1px solid; color: blue
+    
+}
+
+/*Living*/
+
+.columna_uno{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.living1 h4{
+    text-align: left;
+    padding-bottom: 15px;
+    margin-top: 25px;
+}
+
+.living1 ul{
+    list-style: none;
+    margin-top: 25px;
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+.living1 ol{
+    list-style: none;
+    
+}
+
+.living2{
+    text-align: left;
+}
+
+.living2 h4{
+    text-align: left;
+    padding-bottom: 15px;
+    margin-top: 25px;
+    margin-left: 1px;
+}
+
+
+.living2 ul{
+    list-style: none;
+}
+.living3 h4{
+    text-align: left;
+    padding-bottom: 15px;
+    margin-top: 25px;
+}
+
+.living3 ul{
+    list-style: none;
+    text-align: left;
+}
+
+.living3 ul li, .living2 ul li{
+    margin: 30px 0;
+    font-size: 18px;
+}
+
+
+/*Quienes somos*/
+
+main{
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: pink;
+
+}
+
+.titulo{
+    color:rgb(255, 0, 242);
+    padding-left: 50%;
+    background-image:url(/Imagenes/Nosotros_11.jpg);
+    height: 15vh;
+}
+
+.redaccion{
+    display: flex;
+    font-size: 22px ;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.subtitulo{
+    text-align: center;
+    padding-top: 50px;
+}
+
+/*Registrate*/
+
+
+
+
+.form-container{
+
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-width: 50%;
+    margin: 20px auto;
+    border-radius: 4px;
+}
+
+.registro_ input {
+    border: 2px solid rgb(224, 123, 238);
+    border-radius: 4px;
+    margin-bottom: 12px;
+    padding: 5px;
+    flex-basis: calc(70% - 10px);
+}
+
+.registro_ label {
+    text-align: left;
+    flex-basis: calc(30% - 10px);
+}
+
+.registro_{
+    display: flex;
+    align-items: center;
+}
+
+
+.login-container{
+    text-align: center;
+}
+
+.login-container .registrate{
+    margin: 20px 0;
+}
+
+.options .flex-contraseña-checkbox{ 
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.flex-contraseña-checkbox p{
+    margin-right: 5px;
+}
+
+.options .boton-div{
+    margin-top: 30px ;
+}
+
+/*footer*/
+
+footer{
+    margin-top: 345px;
+    background-color:rgb(182, 164, 173);
+    width: 100%;;
+    height: 10vh;
+    padding-top: 20px;
+    border-top: 2px solid black
+}
+
+
+.espacio-inferior .instagram{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0px;
+}
+
+.espacio-inferior{
+    text-align: center;
+}
+
+.espacio-inferior a {
+    text-decoration: none;
+    font-weight: bolder;
+}
