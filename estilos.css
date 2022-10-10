@@ -61,39 +61,23 @@ main{
 
 
 /*Seccion catalogo*/
-
-.seccion-descripcion h3{
-    text-decoration: underline;
-}
-.seccion-descripcion{
-    text-align: flex-start;
-    margin-top: 50px;
-    border: 2px solid white;
-    padding-left: 30px;;
+.card img{
+    width: auto;
+    max-height: 300px;
 }
 
-.seccion-descripcion ul li{
-    font-size: 22x;
-    margin-bottom: 10px;
+.card{
+    height: 400px;
 }
 
-.seccion-descripcion ul{
-    font-size: 18px ;
-    list-style-type: disc;
-    list-style-position: inside;
-    padding-top: 30px;
+.btn-primary {
 }
 
-.transform{
-    height: 250px;
-    width: 250px;
-    background-color: yellow;
-    background-image: radial-gradient(top white red);
-    border: 1px solid; color: blue
-    
-}
+/*Empaque*/
 
-/*Living*/
+main{
+    background-color: pink;
+}
 
 .columna_uno{
     display: flex;
