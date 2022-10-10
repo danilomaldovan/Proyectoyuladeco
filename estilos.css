@@ -5,7 +5,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(243, 201, 209);
+    background-color: pink
 }
 
 /*Encabezado*/
@@ -48,50 +48,19 @@ nav .desktop .primary{
 /*Pagina principal*/
 
 main{
-    background-color: pink;
+    background-color:rgb(236, 217, 217)
 }
 
-/*
-.fotos-lugar:hover{
-    border: solid 4px;
-    color: black;
+.col-md-2 .img-fluid{
+    border: 2px solid black;
 }
 
-.grid-layout{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    justify-content: center;
-
-    width: 80%;
-    margin: 10% auto;
-    background-color:lightpink;
-    padding: 50px;
-    text-align: center;
-}
-
-*/
-.seccion-uno{
-    text-align: center;
-    margin-top: 150px;
-    font-size: 18px;
-    color: rgb(77, 80, 80);
-    
-}
-
-.seccion-uno .links{
-    text-decoration: none;
-    color:rgb(192, 109, 192) ;
-    font-weight: bold;
-}
-
-.texto-seccion-uno{
-    font-size: 18px;
+.ancho_imagen {
+    border: 2px solid rgb(194, 125, 136);
 }
 
 
-
-/*Seccion hogar*/
+/*Seccion catalogo*/
 
 .seccion-descripcion h3{
     text-decoration: underline;
@@ -184,13 +153,6 @@ main{
 
 /*Quienes somos*/
 
-main{
-    margin-left: 150px;
-    margin-right: 150px;
-    background-color: pink;
-
-}
-
 .titulo{
     color:rgb(255, 0, 242);
     padding-left: 50%;
@@ -211,9 +173,6 @@ main{
 }
 
 /*Registrate*/
-
-
-
 
 .form-container{
 
@@ -271,8 +230,8 @@ main{
 footer{
     margin-top: 345px;
     background-color:rgb(182, 164, 173);
-    width: 100%;;
-    height: 10vh;
+    width: 100%;
+    height: 15vh;
     padding-top: 20px;
     border-top: 2px solid black
 }
