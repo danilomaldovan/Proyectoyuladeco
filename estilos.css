@@ -75,63 +75,15 @@ main{
 
 /*Empaque*/
 
-main{
-    background-color: pink;
-}
-
-.columna_uno{
+.titulo1{
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
 }
 
-.living1 h4{
-    text-align: left;
-    padding-bottom: 15px;
-    margin-top: 25px;
-}
-
-.living1 ul{
-    list-style: none;
-    margin-top: 25px;
-    font-size: 18px;
-    margin: 30px 0;
-}
-
-.living1 ol{
-    list-style: none;
-    
-}
-
-.living2{
-    text-align: left;
-}
-
-.living2 h4{
-    text-align: left;
-    padding-bottom: 15px;
-    margin-top: 25px;
-    margin-left: 1px;
-}
-
-
-.living2 ul{
-    list-style: none;
-}
-.living3 h4{
-    text-align: left;
-    padding-bottom: 15px;
-    margin-top: 25px;
-}
-
-.living3 ul{
-    list-style: none;
-    text-align: left;
-}
-
-.living3 ul li, .living2 ul li{
-    margin: 30px 0;
-    font-size: 18px;
+.subtitulo1{
+    display: flex;
+    justify-content: center;
+    color: grey;
 }
 
 
