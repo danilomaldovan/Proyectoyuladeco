@@ -1,0 +1,189 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+$texto: Arial, Helvetica, sans-serif;
+
+$color-fondo: pink  
+$color-primario: rgb(182, 164, 173);
+$color-secundario:rgb(236, 217, 217)
+$color-terciario rgb(255, 0, 242);
+$color-g: grey
+
+
+$pie-pagina rgb(182, 164, 173);
+
+$color-texto: rgb (0 0 0);
+
+$border: 2px solid black
+$border-image 2px solid rgb (194, 125, 136);
+$border-input: 2px solid rgb(224, 123, 238);
+
+/*Encabezado*/
+
+nav{
+    background-color: $color-primario;
+    color: $color-texto;
+    width: 100%
+}
+
+.logo{   
+        width:250px;
+        
+    a{
+        color:$color-texto;
+        text-decoration: none;
+        display: block;
+        padding: 25px 30px;
+    &:hover{
+        color:$color-texto;
+        text-decoration: underline;
+            }
+        }
+    }
+
+.desktop{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+/*pagina principal*/
+
+main{
+    background-color: $color-secundario;
+}
+
+.img-fluid{
+    border: $border;
+}
+
+.ancho-imagen{  
+    border: $border-image;
+}
+
+/*Seccion catalogo*/
+.card{
+    width: auto;
+    max-height: 300px;
+}
+
+.card{
+    height: 400px;
+}
+
+/*Empaque*/
+.titulo{
+    display:flex;
+    justify-content: center;
+}
+
+.subtitulo1{
+    display: flex;
+    justify-content: center;
+    color: $color-g
+}
+
+/*Quienes somos*/
+
+.titulo{
+    color: $color-terciario;
+    padding-left: 50%;
+    background-image:url(/Imagenes/Nosotros_11.jpg);
+    height: 15vh;
+}
+
+.redaccion{
+    display: flex;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.subtitulo{
+    text-align: center;
+    padding-top: 50px;
+}
+
+.nosotros{
+    margin-bottom: 250px;
+}
+
+/*Registrate*/
+
+.form-container{
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-width: 50%;
+    margin: 20px auto;
+    planilla{
+        margin-bottom: 0px;
+            }
+            login-container{
+                text-align: center;
+                registrate{
+                    margin: 20px 0;
+                }
+            }
+}
+
+.registro_{
+    display: flex;
+    align-items: center;
+    input{
+        border:$border-input;
+        border-radius: 4px;
+        margin-bottom: 12px;
+        padding: 5px;
+        flex-basis: calc (70% - 10px);
+        label{
+            text-align: left;
+            flex-basis: calc(30% - 10px);
+        }
+    }
+}
+
+.options{
+    flex-contraseña-checkbox{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        p{
+            margin-right: 5px;
+        }
+    }
+}
+
+.boton-div{
+    margin-top: 30px;
+}
+
+/*footer*/
+
+footer{
+    margin-top: 0px;
+    background-color: $color-primario;
+    width: 100%;
+    height: 250px;
+    padding-top: 20px;
+    border: $border;
+}
+
+.espacio-inferior{
+    text-align: center;
+    a{
+        text-decoration: none;
+        font-weight: bolder;
+    }
+}
+
+.espacio-inferior{
+    instagram{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 0px;
+    }
+}
