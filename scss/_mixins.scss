@@ -2,10 +2,10 @@
 /* Navegador */
 
 @mixin navegador-personalizado{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0px 20px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0px 20px;
 }
 
 @mixin el-tituloportada {
