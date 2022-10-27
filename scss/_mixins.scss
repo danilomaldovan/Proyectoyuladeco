@@ -1,0 +1,24 @@
+
+/* Navegador */
+
+@mixin navegador-personalizado{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+@mixin el-tituloportada {
+        color: $color-terciario;
+        padding-left: 50%;
+        background-image:url(/Imagenes/Nosotros_11.jpg);
+        height: 15vh;
+}
+
+@mixin formularios-rellenar {
+        border:$border-input;
+        border-radius: 4px;
+        margin-bottom: 12px;
+        padding: 5px;
+        flex-basis: calc (70% - 10%);
+}

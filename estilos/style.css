@@ -1,0 +1,128 @@
+@charset "UTF-8";
+/* Navegador */
+nav {
+  background-color: #b6a4ad;
+  color: rgb 0 0 0;
+  width: 100%; }
+
+.logo {
+  width: 250px; }
+  .logo a {
+    color: rgb 0 0 0;
+    text-decoration: none;
+    display: block;
+    padding: 25px 30px; }
+    .logo a:hover {
+      color: rgb 0 0 0;
+      text-decoration: underline; }
+
+.desktop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 20px; }
+
+/*pagina principal*/
+main {
+  background-color: #ecd9d9; }
+
+.img-fluid {
+  border: 2px solid black; }
+
+.ancho-imagen {
+  border: 2px solid rgb 194, 125, 136; }
+
+/*Seccion catalogo*/
+.card {
+  width: auto;
+  max-height: 300px; }
+
+.card {
+  height: 400px; }
+
+/*Empaque*/
+.titulo {
+  display: flex;
+  justify-content: center; }
+
+.subtitulo1 {
+  display: flex;
+  justify-content: center;
+  color: grey; }
+
+/*Quienes somos*/
+.titulo {
+  color: #ff00f2;
+  padding-left: 50%;
+  background-image: url(/Imagenes/Nosotros_11.jpg);
+  height: 15vh; }
+
+.redaccion {
+  display: flex;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 60px; }
+
+.subtitulo {
+  text-align: center;
+  padding-top: 50px; }
+
+.nosotros {
+  margin-bottom: 250px; }
+
+/*Registrate*/
+.form-container {
+  border-radius: 4px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  max-width: 50%;
+  margin: 20px auto; }
+  .form-container .planilla {
+    margin-bottom: 0px; }
+  .form-container login-container {
+    text-align: center; }
+    .form-container login-container .registrate {
+      margin: 20px 0; }
+
+.registro_ {
+  display: flex;
+  align-items: center; }
+  .registro_ input {
+    border: 2px solid #e07bee;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    padding: 5px;
+    flex-basis: calc 60%; }
+    .registro_ input label {
+      text-align: left;
+      flex-basis: calc(30% - 10px); }
+
+.flex-contraseña-checkbox {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; }
+  .flex-contraseña-checkbox p {
+    margin-right: 5px; }
+
+.boton-div {
+  margin-top: 30px; }
+
+/*footer*/
+footer {
+  margin-top: 0px;
+  background-color: #b6a4ad;
+  width: 100%;
+  height: 250px;
+  padding-top: 20px;
+  border: 2px solid black; }
+
+.espacio-inferior {
+  text-align: center; }
+  .espacio-inferior a {
+    text-decoration: none;
+    font-weight: bolder; }
+
+.instagram {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0px; }
