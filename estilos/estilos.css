@@ -3,13 +3,16 @@
   margin: 0;
   padding: 0; }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 320px) {
   .primary {
     height: 230px;
     flex-direction: column;
     text-align: center; }
   .logo {
-    display: none; } }
+    display: none; }
+  
+    
+  }
 
 @media screen and (max-width: 421px) {
   .primary {
@@ -29,6 +32,7 @@
 
 @media screen and (max-width: 768px) {
   .primary {
+    margin-top: 50px;
     height: 450px;
     display: block;
     flex-direction: column;
@@ -36,6 +40,10 @@
   .logo {
     display: none; } }
 
+  .col{
+    width: 22rem;
+  }
+  
 @media screen and (max-width: 821px) {
   .primary {
     height: 320px;
@@ -98,6 +106,11 @@ main {
 .card {
   height: 400px; }
 
+.card-title {
+  display: flex;
+  justify-items: end;
+}
+
 /*Empaque*/
 .titulo1 {
   display: flex;
@@ -129,7 +142,7 @@ main {
 /*Registrate*/
 .form-container {
   background-color: #f2f2f2;
-  padding: 20px;
+  padding: 50px;
   max-width: 50%;
   margin: 20px auto;
   border-radius: 4px; }
@@ -169,7 +182,7 @@ main {
 .planilla {
   margin-bottom: 400px; }
 
-/*footer*/
+  /*footer*/
 footer {
   margin-top: 0px;
   background-color: #b6a4ad;
@@ -189,3 +202,5 @@ footer {
 .espacio-inferior a {
   text-decoration: none;
   font-weight: bolder; }
+
+
